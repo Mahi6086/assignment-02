@@ -11,8 +11,8 @@ body {
 
 
 /*----------------------
-         header style starting part 
-         --------------------------*/
+ header style starting part 
+ --------------------------*/
 
 .header-section {
     margin-left: 0px;
@@ -22,11 +22,12 @@ body {
     background: #2D25A0;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .tournament-name {
     margin-left: 290px;
+    margin-bottom: 208px;
 }
 
 .tournament-name h1 {
@@ -403,4 +404,4 @@ footer {
    Mobile device 
    ----------------*/
 
-@media only screen and (max-width: 688px) {}
+@media only screen and (min-width: 688px) and (max-width: 992px) {}
