@@ -10,7 +10,9 @@ body {
 }
 
 
-/* header style starting part */
+/*----------------------
+         header style starting part 
+         --------------------------*/
 
 .header-section {
     margin-left: 0px;
@@ -80,10 +82,14 @@ body {
 }
 
 
-/* header style ending part */
+/*------------------------------
+         header style ending part 
+         ------------------------------*/
 
 
-/* Main style starting part */
+/*-----------------------
+        Main style starting part 
+        -------------------------*/
 
 main {
     display: flex;
@@ -141,10 +147,14 @@ main {
 }
 
 
-/* Main Style ending part */
+/*---------------------
+        Main Style ending part 
+        -----------------------*/
 
 
-/* Highlights style starting part */
+/*------------------------
+        Highlights style starting part 
+        -------------------------------*/
 
 .highlights {}
 
@@ -227,10 +237,20 @@ button .watch-now {
 }
 
 
-/* Highlight Style Ending Part */
+/*-----------------------
+        Highlight Style Ending Part
+        ----------------------------*/
 
 
-/* Footer Style Starting Part */
+/*---------------------------
+        Footer Style Starting Part
+        ----------------------------*/
+
+footer {
+    width: 100%;
+    height: 220px;
+    background: #F3F1FF;
+}
 
 .footer-section {
     display: flex;
@@ -239,7 +259,7 @@ button .watch-now {
     align-items: center;
     width: 483.87px;
     height: 213px;
-    margin-top: 50px;
+    margin-top: 70px;
     margin-left: 778px;
 }
 
@@ -268,10 +288,14 @@ button .watch-now {
 }
 
 
-/* Footer Style ending Part */
+/*---------------------------
+        Footer Style ending Part
+        -----------------------------*/
 
 
-/* Bonus section Style Starting */
+/*-------------------------------
+        Bonus section Style Starting
+        --------------------------------*/
 
 .Bonus-section {
     width: 100%;
@@ -298,6 +322,7 @@ button .watch-now {
     margin-top: 20px;
     width: 7%;
     margin-bottom: 0px;
+    color: gray;
 }
 
 .club-logo .tittle {
@@ -332,3 +357,35 @@ button .watch-now {
     text-align: center;
     margin-top: 4px;
 }
+
+
+/*---------------------
+         Trophy Section Style
+         ---------------------- */
+
+.trophy-section {
+    width: 100%;
+    height: 500px;
+}
+
+.trophys {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.trophy-winning-info {
+    margin-top: 30px;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+}
+
+.trophy-winning-info img {
+    width: 150px;
+}
+
+
+/*-------------------------------
+        Bonus section Style Starting
+        --------------------------------*/
